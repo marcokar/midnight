@@ -7,7 +7,7 @@ const io = require("socket.io").listen(server);
 
 // Child processes
 console.log( process.env.PATH );
-const reqManager = require('child_process').fork('./reqmanager.js', [], {execArgv: ['--debug=5859']};
+const reqManager = require('child_process').fork('./reqmanager.js', [], {execArgv: ['--debug=5859']});
 const matchManager = require('child_process').fork('./matchmanager.js', [], {execArgv: ['--debug=5890']});
 
 // Global data
