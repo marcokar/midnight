@@ -1,0 +1,11 @@
+{
+  "name": "midnight",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "reqmanager": "node reqmanager.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^4.1.3"
+  }
+}
